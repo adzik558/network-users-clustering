@@ -24,7 +24,6 @@ Projekt został wykonany w języku **Python** w ramach zajęć z inżynierii dan
 Dokumentacja szczegółowo opisuje wszystkie zastosowane metody
 (Albo: *Plik Klasteryzacja.pdf zawiera pełny opis implementacji — generowanie punktów,
 definicje klas, algorytm K-Means, klasteryzację z prędkością, pingiem i priorytetem*).  
-:contentReference[oaicite:1]{index=1}
 
 ---
 
@@ -38,7 +37,6 @@ Zgodnie z opisem w rozdziale *Cel pracy* (strona 5 PDF), celem było:
   - w oparciu o prędkość łącza,  
   - w oparciu o ping,  
   - w oparciu o priorytet użytkownika.  
-:contentReference[oaicite:2]{index=2}
 
 ---
 
@@ -49,28 +47,22 @@ W projekcie wykorzystano m.in.:
 ### Klasteryzacja K-Means
 Przykład implementacji znajduje się na stronie 5 PDF — za pomocą scikit-learn
 podzielono 1000 punktów na 8 klastrów i wyznaczono centroidy.  
-:contentReference[oaicite:3]{index=3}
 
 ### Klasteryzacja według najbliższego centroidu
 Każdy punkt przydzielany jest do klastra na podstawie najmniejszej odległości,
 przy centroidach zdefiniowanych ręcznie.  
-:contentReference[oaicite:4]{index=4}
 
 ### Klasteryzacja z uwzględnieniem prędkości
 Punkt ma atrybut prędkości, a centroidy różnią się przepustowością.  
 Przypisanie odbywa się z uwzględnieniem zarówno odległości, jak i prędkości.  
-:contentReference[oaicite:5]{index=5}
 
 ### Klasteryzacja na podstawie ping
 Każdy punkt posiada parametr *ping*, a centroid odpowiada zakresowi pingów.  
 Punkt trafia do klastra centroidu, którego zakres obejmuje jego wartość.  
-:contentReference[oaicite:6]{index=6}
 
 ### Klasteryzacja wg priorytetu
 Punkty posiadają priorytet (0–2), który wpływa na przypisanie do klastra.
 Priorytet 0 jest traktowany jako specjalny przypadek — klasteryzacja tylko wg odległości.  
-:contentReference[oaicite:7]{index=7}
-
 ---
 
 ## Technologie
@@ -82,4 +74,3 @@ Priorytet 0 jest traktowany jako specjalny przypadek — klasteryzacja tylko wg 
 
 Kod korzysta z prostych klas (`Point`) oraz ręcznej implementacji logiki klasteryzacji,
 co dobrze pokazuje działanie algorytmów od podstaw.  
-:contentReference[oaicite:8]{index=8}
