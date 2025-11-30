@@ -11,7 +11,10 @@ Projekt został wykonany w języku **Python** w ramach zajęć z inżynierii dan
 
 ---
 
-## network-traffic-analysis-anomaly-detection/
+## Struktura repozytorium
+
+
+```plaintextnetwork-traffic-analysis-anomaly-detection/
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
@@ -26,7 +29,7 @@ Projekt został wykonany w języku **Python** w ramach zajęć z inżynierii dan
 │   └── example_plot.png    
 └── tests/
     └── test_data_check.R   
-
+```
 - **clustering_users.ipynb / clustering.py** – główny kod projektu
 - **Klasteryzacja.pdf** – pełna dokumentacja projektu  
   (opis metod, wyniki, wykresy, wyjaśnienie podejścia) 
