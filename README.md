@@ -107,4 +107,11 @@ Priorytet 0 jest traktowany jako specjalny przypadek — klasteryzacja tylko wg 
 Kod korzysta z prostych klas (`Point`) oraz ręcznej implementacji logiki klasteryzacji,
 co dobrze pokazuje działanie algorytmów od podstaw.  
 
+## Jak uruchomić projekt (krok po kroku)
+
+1. Pobierz plik **src/clustering-ipynb** o
+2. Otwórz go np. w Google Colab.
+3. Skompiluj komórki:    
+4. Gotowe!  
+   Wyniki pojawią się poniżej kompilowanych komórek.
 
