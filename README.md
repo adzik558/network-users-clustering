@@ -31,14 +31,11 @@ network-traffic-analysis-anomaly-detection/
 └── tests/
     └── test_data_check.R   
 ```
-- **clustering_users.ipynb / clustering.py** – główny kod projektu
-- **Klasteryzacja.pdf** – pełna dokumentacja projektu  
+- **clustering.R** – główny kod projektu
+- **klasteryzacja - dokumentacja.pdf** – pełna dokumentacja projektu  
   (opis metod, wyniki, wykresy, wyjaśnienie podejścia) 
-- przykładowe wykresy (opcjonalnie)
-
-Dokumentacja szczegółowo opisuje wszystkie zastosowane metody
-(Albo: *Plik Klasteryzacja.pdf zawiera pełny opis implementacji — generowanie punktów,
-definicje klas, algorytm K-Means, klasteryzację z prędkością, pingiem i priorytetem*).  
+- przykładowe wykresy
+  
 
 ---
 
