@@ -19,18 +19,22 @@ network-traffic-analysis-anomaly-detection/
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
-├── requirements_R.txt      
-├── data/
-│   └── sample_traffic.csv
 ├── docs/
 │   └── klasteryzacja - dokumentacja.pdf
 ├── src/    
-│   └── clustering.R            
-├── plots/
-│   └── example_plot.png    
-└── tests/
-    └── test_data_check.R   
+│   └── clustering.R          
+└── plots/
+    ├── ss1.png
+    ├── ss2.png
+    ├── ss3.png
+    ├── ss4.png
+    └── ss5.png
+
+
 ```
+
+
+
 - **clustering.R** – główny kod projektu
 - **klasteryzacja - dokumentacja.pdf** – pełna dokumentacja projektu  
   (opis metod, wyniki, wykresy, wyjaśnienie podejścia) 
@@ -102,3 +106,5 @@ Priorytet 0 jest traktowany jako specjalny przypadek — klasteryzacja tylko wg 
 
 Kod korzysta z prostych klas (`Point`) oraz ręcznej implementacji logiki klasteryzacji,
 co dobrze pokazuje działanie algorytmów od podstaw.  
+
+
