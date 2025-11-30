@@ -60,21 +60,37 @@ W projekcie wykorzystano m.in.:
 Przykład implementacji znajduje się na stronie 5 PDF — za pomocą scikit-learn
 podzielono 1000 punktów na 8 klastrów i wyznaczono centroidy.  
 
+<img width="768" height="426" alt="image" src="https://github.com/user-attachments/assets/d52f87f2-af6b-4c59-b2e3-cefbd6059dd4" />
+
+
 ### Klasteryzacja według najbliższego centroidu
 Każdy punkt przydzielany jest do klastra na podstawie najmniejszej odległości,
 przy centroidach zdefiniowanych ręcznie.  
 
-### Klasteryzacja z uwzględnieniem prędkości
+<img width="681" height="439" alt="image" src="https://github.com/user-attachments/assets/e12c8214-812c-468b-8e3d-a451d4170efc" />
+
+
+### Klasteryzacja z uwzględnieniem prędkości i odległości
 Punkt ma atrybut prędkości, a centroidy różnią się przepustowością.  
 Przypisanie odbywa się z uwzględnieniem zarówno odległości, jak i prędkości.  
 
-### Klasteryzacja na podstawie ping
+<img width="685" height="438" alt="image" src="https://github.com/user-attachments/assets/afdb3d15-f39f-4edf-8126-5da6246fc4e1" />
+
+### Klasteryzacja na podstawie odległości oraz ping'u
 Każdy punkt posiada parametr *ping*, a centroid odpowiada zakresowi pingów.  
 Punkt trafia do klastra centroidu, którego zakres obejmuje jego wartość.  
 
-### Klasteryzacja wg priorytetu
+<img width="677" height="443" alt="image" src="https://github.com/user-attachments/assets/9a206380-4b3e-490e-9cae-68629cf698e4" />
+
+
+### Klasteryzacja wg priorytetu i odległości
 Punkty posiadają priorytet (0–2), który wpływa na przypisanie do klastra.
 Priorytet 0 jest traktowany jako specjalny przypadek — klasteryzacja tylko wg odległości.  
+
+<img width="676" height="430" alt="image" src="https://github.com/user-attachments/assets/0b90f8b2-9cb4-4f30-ba6e-c46378785136" />
+
+
+
 ---
 
 ## Technologie
