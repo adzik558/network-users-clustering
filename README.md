@@ -38,7 +38,7 @@ network-traffic-analysis-anomaly-detection/
 - **clustering.R** – główny kod projektu
 - **klasteryzacja - dokumentacja.pdf** – pełna dokumentacja projektu  
   (opis metod, wyniki, wykresy, wyjaśnienie podejścia) 
-- przykładowe wykresy
+- wykresy
   
 
 ---
