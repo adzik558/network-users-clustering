@@ -14,7 +14,8 @@ Projekt został wykonany w języku **Python** w ramach zajęć z inżynierii dan
 ## Struktura repozytorium
 
 
-```plaintextnetwork-traffic-analysis-anomaly-detection/
+```plaintext
+network-traffic-analysis-anomaly-detection/
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
