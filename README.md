@@ -1,6 +1,3 @@
-# network-users-clustering
-Klasteryzacja użytkowników sieci na podstawie odległości i parametrów (Python)
-
 # Klasteryzacja użytkowników sieci na podstawie odległości i parametrów (Python)
 
 Projekt polega na symulacji użytkowników sieci (punktów na płaszczyźnie) oraz
